@@ -10,7 +10,7 @@ function run(){
         }
         if(tot>20896)
         {
-           alert(’油量过多！不予计算！’)
+           alert(’油量过多！不予计算！’);
         }
     alert('共需航油（KG）：'+tot);
 
