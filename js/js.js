@@ -7,10 +7,13 @@ function run(){
         {
             alert(’距离过短，不予计算！’);
         }
-        if(tot>20896)
+        else if(tot>20896)
         {
            alert(’油量过多！不予计算！’);
         }
-	tot=2650*V/s+5000+1325;
+	else
+	{
+		tot=2650*V/s+5000+1325;
+	}
         alert('共需航油（KG）：'+tot);
 }
