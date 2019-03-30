@@ -7,7 +7,7 @@ function run(){
         {
             alert(’距离过短，不予计算！’);
         }
-        else if(tot>20896)
+        if(tot>20896)
         {
            alert(’油量过多！不予计算！’);
         }
